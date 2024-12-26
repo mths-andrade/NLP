@@ -1,2 +1,11 @@
-# NLP
-Desenvolveremos um projeto voltado para a classificação de sentimentos de clientes.
+# Aplicando processamento de linguagem natural para análise de sentimentos
+
+O projeto foi desenvolvido num notebook do Google Colab. Temos a seguinte [base de dados](https://github.com/mths-andrade/NLP/blob/160f2784ef7e28b1a459b0f48fbfaa105bb08da4/dataset_avaliacoes.csv) e trabalhamos com as biliotecas Pandas, Scikit-Learn, Wordcloud, Matplotlib, NLTK e Unidecode. Na tabela, temos uma coluna com o ID_avaliacao, que serve como um código para identificar a avaliação feita pela pessoa. Com essa informação, o e-commerce consegue saber qual produto foi comprado e quem fez a avaliação. Também temos uma coluna contendo o texto da avaliacao, que descreve a experiência de compra, e uma nota atribuída, como 5, 2, 1 ou 4. Além disso, existe uma coluna que classifica o sentimento como positivo ou negativo.
+
+Consideremos um e-commerce que recebe milhares de avaliações diariamente. As pessoas consumidoras compram produtos e compartilham suas opiniões, o que nos permite extrair insights sobre suas preferências e descontentamentos. A partir dessas avaliações, conseguimos identificar o que agrada, o que desagrada e o sentimento geral em relação à experiência com a marca ou o produto, seja ele positivo ou negativo.
+
+Desenvolvemos um projeto voltado para a classificação de sentimentos de clientes. Analisamos um e-commerce que recebe diversas avaliações de consumidores. Criamos abordagens e utilizar estratégias eficazes para trabalhar com esses textos.
+
+Iniciamos compreendendo como converter informações textuais em dados numéricos, permitindo que o algoritmo as interprete e possibilitando a classificação de sentimentos. Exploramos a frequência das palavras e aprenderemos a construir visualizações que ilustrem o que é mais recorrente, tanto em sentimentos positivos quanto negativos. Em seguida, trabalhamos no tratamento do texto, onde aprendemos a remover elementos irrelevantes e a processar e normalizar as informações. Aprofundamos nosso conhecimento em técnicas mais avançadas, como Stemming, TF-IDF e N-grams, que serão fundamentais para aprimorar o modelo e aumentar a precisão na determinação se um sentimento é positivo ou negativo.
+
+Ao final do projeto, seremos capazes de aplicar esse modelo a novos dados. Faremos o modelo funcionar e completaremos um projeto que nos permitirá ver sua aplicação prática.
